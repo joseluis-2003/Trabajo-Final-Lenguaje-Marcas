@@ -1,0 +1,114 @@
+header {
+  background-color: #74fd6f;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  color: #fff;
+  font-size: 24px;
+
+}
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+  background-image: url('https://images.squarespace-cdn.com/content/v1/5fe4caeadae61a2f19719512/1609949350838-I6TRCXA4B01IHDWEB390/24.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Estilos para las cartas */
+.card {
+  position: relative;
+  width: 300px;
+  height: 420px;
+  background-color: #00fff0;
+  border: 2px solid #333;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  float: left;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  transform-style: preserve-3d;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card h2 {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card .Jedi {
+  font-weight: bold;
+  color: #555;
+}
+
+.card .Maestro {
+  font-style: italic;
+  color: #555;
+}
+
+.card .especie {
+  margin-bottom: 10px;
+  color: #777;
+}
+
+.card .sableLuz {
+  margin-bottom: 10px;
+}
+
+.card .fallecimiento {
+  margin-bottom: 10px;
+  color: #777;
+}
+
+.card img {
+  max-width: 100%;
+  max-height: 200px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  transition: opacity 0.3s ease-in-out;
+}
+
+.card:hover img {
+  opacity: 0.8;
+}
+
+/* Media queries para dispositivos móviles */
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+    height: auto;
+    margin: 0 0 20px 0;
+    float: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    padding: 10px;
+  }
+
+  .card h2 {
+    font-size: 20px;
+  }
+
+  .card img {
+    margin-bottom: 10px;
+  }
+}

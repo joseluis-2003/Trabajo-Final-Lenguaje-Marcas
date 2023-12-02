@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="jediCouncil.xsl"?>
+<consejoJedi>
+  <jedi>
+    <nombre apellido="Skywalker">Anakin</nombre>
+    <especie genero="Masculino">Humano</especie>
+    <rango>Caballero</rango>
+    <sableLaser color="Azul" />
+    <fallecimiento lugar="Estrella de la muerte II">4 DBY</fallecimiento>
+    <img src="media/skywalker.jpg"></img>
+  </jedi>
+  <jedi>
+    <nombre apellido="Kenobi">Obi-Wan</nombre>
+    <especie genero="Masculino">Humano</especie>
+    <rango>Maestro</rango>
+    <sableLaser color="Azul" />
+    <fallecimiento lugar="Estrella de la muerte I">0 DBY</fallecimiento>
+    <img src="media/kenobi.jpg"></img>
+  </jedi>
+  <jedi>
+    <nombre apellido="Windu">Mace</nombre>
+    <especie genero="Masculino">Humano</especie>
+    <rango>Maestro</rango>
+    <sableLaser color="Morado" />
+    <fallecimiento lugar="Coruscant">19 ABY</fallecimiento>
+    <img src="media/windu.jpg"></img>
+  </jedi>
+  <jedi>
+    <nombre>Yoda</nombre>
+    <especie genero="Masculino">Desconocida</especie>
+    <rango>Maestro</rango>
+    <sableLaser color="Verde" />
+    <fallecimiento lugar="Dagobah">4 DBY</fallecimiento>
+    <img src="media/yoda.jpg"></img>
+  </jedi>
+  <jedi>
+    <nombre apellido="Ti">Shaak</nombre>
+    <especie genero="Femenino">Togruta</especie>
+    <rango>Maestro</rango>
+    <sableLaser color="Azul" />
+    <fallecimiento lugar="Coruscant">19 ABY</fallecimiento>
+    <img src="media/ti.jpg"></img>
+  </jedi>
+  <jedi>
+    <nombre apellido="Fisto">Kit</nombre>
+    <especie genero="Masculino">Nautolano</especie>
+    <rango>Maestro</rango>
+    <sableLaser color="Verde" />
+    <fallecimiento lugar="Coruscant">19 ABY</fallecimiento>
+    <img src="media/fisto.jpg"></img>
+  </jedi>
+</consejoJedi>
